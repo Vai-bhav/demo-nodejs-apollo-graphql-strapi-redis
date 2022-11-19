@@ -27,6 +27,16 @@
     "tasks": {
       "collection": "task",
       "via": "employee"
+    },
+    "department": {
+      "via": "employees",
+      "model": "department"
+    },
+    "address": {
+      "model": "address"
+    },
+    "account": {
+      "model": "account"
     }
   }
 }

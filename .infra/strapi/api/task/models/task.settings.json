@@ -23,6 +23,10 @@
     "employee": {
       "via": "tasks",
       "model": "employee"
+    },
+    "department": {
+      "via": "tasks",
+      "model": "department"
     }
   }
 }
